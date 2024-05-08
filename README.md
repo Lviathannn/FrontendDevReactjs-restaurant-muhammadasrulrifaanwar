@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+## Deployment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project can be access at :
+https://frontendreactjs-muhammadasrulrifa.netlify.app/
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. React 18.2.0
+2. Zustand 4.5.2
+3. React Query 5.35.1
+4. TailwindCSS 3.4.3
+5. Shadcn UI
+6. Typescript 5.2.2
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Filter**
+   - Filter restaurant data based on categories,open, and price level
+2. **Infinite Query**
+   - Infinite Query with react query
+3. **Detail**
+   - Detail page based on data from api
 
-- Configure the top-level `parserOptions` property like this:
+## Run Locally
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+Clone the project
+
+```bash
+  git clone https://link-to-project
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  pnpm install
+```
+
+Start the server
+
+```bash
+  pnpm run start
+```
+
+Set the ENV , you can get the api key from https://rapidapi.com/ptwebsolution/api/worldwide-restaurants
+
+or use mine :
+
+```bash
+  VITE_X_RAPID_API_KEY = "dbcae52795mshd6554e8f7847904p1e8218jsn54d1ca9eff57"
+  VITE_X_RAPID_API_HOST = "worldwide-restaurants.p.rapidapi.com"
+```
