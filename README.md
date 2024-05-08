@@ -52,6 +52,6 @@ Set the ENV , you can get the api key from https://rapidapi.com/ptwebsolution/ap
 or use mine :
 
 ```bash
-  VITE_X_RAPID_API_KEY = "dbcae52795mshd6554e8f7847904p1e8218jsn54d1ca9eff57"
+  VITE_X_RAPID_API_KEY = "0024b0b477msh3c0802701e8a451p165f63jsnaa9734a012c0"
   VITE_X_RAPID_API_HOST = "worldwide-restaurants.p.rapidapi.com"
 ```
